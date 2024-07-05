@@ -1,0 +1,77 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  height: 100vh;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  background-color: rgb(171, 169, 134);
+  border: 3px solid rgb(62, 59, 59);
+  border-radius: 0px;
+  box-shadow: 3px 6px 9px;
+  height: 40vh;
+  width: 25vw;
+}
+.heading {
+  border-bottom: 2px solid rgb(62, 59, 59);
+  /* border-radius: 20px; */
+  text-align: center;
+  padding: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.7rem;
+}
+.sub-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 15px 0;
+}
+
+/* =========styling of Placeholder=========== */
+input 
+{
+  padding: 8px;
+  outline: none;
+  border-radius: 8px;
+}
+/* =========styling of Placeholder=========== */
+
+
+/*====button styling=======*/
+button {
+  border-radius: 8px;
+}
+
+button:hover 
+{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: rgb(8, 8, 8);
+  cursor: pointer;
+  background-color: rgb(143, 220, 235);
+}
+
+/*====button styling=======*/
+
+/*=====list item styling=====*/
+ul {
+  /* border: 1px solid red; */
+  list-style: none;
+  padding: 15px;
+}
+
+li {
+  background-color: white;
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 4px;
+  margin-bottom: 6px 0;
+  padding: 6px;
+}
+
+/*=====list item styling======*/
